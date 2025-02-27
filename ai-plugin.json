@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Mein Reflexions-Plugin",
+  "name_for_model": "reflexions_plugin",
+  "description_for_human": "Bietet Reflexionen und Denkmuster an.",
+  "description_for_model": "Eine API zum Speichern und Abrufen von Reflexionen, Denkmustern und Selbstbeobachtungen.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://deine-domain.tld/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://deine-domain.tld/logo.png",
+  "contact_email": "example@example.com",
+  "legal_info_url": "https://deine-domain.tld/legal"
+}
