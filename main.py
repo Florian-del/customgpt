@@ -5,6 +5,10 @@ import datetime
 
 app = FastAPI()
 
+@app.get("/")
+def read_root():
+    return {"Hallo": "TEST"}
+
 # 📌 Verzeichnis für JSON-Dateien
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
